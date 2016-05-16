@@ -1,0 +1,24 @@
+Before compiling Astroberry AltIMU:
+
+1) RTIMULib2
+# git clone https://github.com/richards-tech/RTIMULib2.git
+# cd RTIMULib2
+# mkdir build
+# cd build
+# cmake ../RTIMULib
+# make
+# sudo make install
+
+2) libindi-dev
+# sudo apt-get install libindi-dev
+
+Compile Astroberry AltIMU:
+# git clone https://github.com/rkaczorek/astroberry-altimu.git
+# cd astroberry-altimu
+# mkdir build
+# cd build
+# cmake ..
+# make
+# sudo make install
+
+DONE
